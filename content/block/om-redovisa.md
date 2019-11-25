@@ -1,3 +1,3 @@
 #### Redovisa på GitHub
 
-Skriv något kort om ditt redovisa-repo och länka till [repot för me/redovisa på GitHub](XXX).
+Källkoden till denna sida hittar du på [mitt repo för dbwebb-design på GitHub](https://github.com/astajax/dbwebb-design).
