@@ -16,7 +16,7 @@ Min me-sida i kursen design
 <!--
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 -->
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig när jag var liten."]
+[FIGURE src="image/me.png?w=300" class="right" caption="Stiliserad bild på mig."]
 
 Jag heter Asta Hakala och jag är född i Luleå, Norrbotten. När jag var liten flyttade
 vi till Finspång, Östergötland, där jag bodde de första fyra åren. Sedan flyttade vi
