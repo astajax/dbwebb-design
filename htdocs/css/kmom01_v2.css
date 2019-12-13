@@ -1,0 +1,286 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/* Poor mans normalize */
+/*
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
+/* Hide submenu, leave this to kmom02 */
+/*
+.rm-desktop ul {
+    display: none;
+}
+*/
+/* Hide responsive/mobile menu, leave this to kmom02 */
+/*
+.rm-navbar-max {
+    display: none;
+}
+*/
+/* Container */
+/*
+.wrap-all {
+  background-color: #ccc;
+}
+
+.outer-wrap {
+  width: 100%;
+  overflow: auto;
+}
+
+.inner-wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+*/
+/* Header */
+/*
+.region-header-col-1 {
+  float: left;
+  width: 20%;
+  margin-right: 10px;
+}
+
+.region-header-col-2 {
+  float: left;
+  width: 50;
+}
+
+.site-logo {
+  display: none;
+}
+
+.my-navbar {
+  padding-top: 15px;
+  list-style-type: none;
+}
+
+.my-navbar li {
+  display: inline;
+  padding: 2px 15px;
+}
+*/
+/* Main */
+/*
+.inner-wrap-main {
+  padding: 20px 0;
+}
+
+.outer-wrap-main {
+  padding: 20px 10px;
+}
+
+.next {
+  width: 80%;
+  padding: 20px 10px;
+}
+
+.region-sidebar-left {
+  float: left;
+  width: 30%;
+  padding: 30px 10px;
+}
+
+.toc {
+  list-style-type: none;
+}
+*/
+/* Footer */
+/*
+.outer-wrap-footer {
+  //background-color: #fcf;
+  background-color: gray;
+}
+
+.inner-wrap-footer {
+  padding: 20px 0;
+}
+
+.region-footer>.block {
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+*/
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: #ccc;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+  font: 100.01%/1 serif;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.inner-wrap {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.wrap-all {
+  background-color: #ccc;
+}
+.outer-wrap {
+  width: 100%;
+  overflow: auto;
+}
+/*
+.rm-desktop ul {
+    display: none;
+}
+
+.rm-navbar-max {
+    display: none;
+}
+*/
+/* Header */
+.region-header-col-1 {
+  float: left;
+  width: 20%;
+  margin-right: 10px;
+}
+.region-header-col-2 {
+  float: left;
+  width: 50;
+}
+.site-logo {
+  display: none;
+}
+.my-navbar {
+  padding-top: 15px;
+  list-style-type: none;
+}
+.my-navbar li {
+  display: inline;
+  padding: 2px 15px;
+}
+/* Main */
+.inner-wrap-main {
+  padding: 20px 0;
+}
+.outer-wrap-main {
+  padding: 20px 10px;
+}
+.next {
+  width: 80%;
+  padding: 20px 10px;
+}
+.region-sidebar-left {
+  float: left;
+  width: 30%;
+  padding: 30px 10px;
+}
+.toc {
+  list-style-type: none;
+}
+/* Footer */
+.outer-wrap-footer {
+  background-color: gray;
+}
+.inner-wrap-footer {
+  padding: 20px 0;
+}
+.region-footer > .block {
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Navbar
+ */
+/*
+@media screen and (max-width: 1000px) {
+    .rm-desktop a {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
+*/
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */
